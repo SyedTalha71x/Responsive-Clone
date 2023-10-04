@@ -1,0 +1,215 @@
+@media screen and (max-width: 1100px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 20px 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        /* background-color: red; */
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .content .h-primary {
+        font-size: 30px;
+    }
+
+    .content .h-para {
+        font-size: 17px;
+        /* width: 100%; */
+    }
+
+    #element {
+        font-size: 19px;
+    }
+
+    .content-btn {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .about-section {
+        text-align: center;
+        height: 100%;
+    }
+
+    .about-section .s-primary {
+        font-size: 30px;
+    }
+
+    .about-section .a-para {
+        font-size: 17px;
+    }
+
+    .left-about {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .heading-sec__main {
+        font-size: 30px;
+    }
+
+    .projects__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects__row-content-title {
+        align-self: center;
+        font-weight: bolder;
+    }
+
+    .projects__row-content-desc {
+        align-self: center;
+    }
+
+    .btn--med {
+        align-self: center;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .heading-sec__sub {
+        font-size: 17px;
+    }
+
+    .projects__row-img {
+        /* display: none; */
+        height: 200px;
+        width: 500px;
+    }
+
+    .contact-content {
+        text-align: center;
+        margin: auto;
+        height: 100%;
+    }
+
+    .contact-content .h-2 {
+        font-size: 30px;
+    }
+
+    .form-box input {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .main-footer__upper {
+        padding: 6rem 0;
+        height: 100%;
+
+    }
+
+    .heading-sm {
+        font-size: 18px;
+    }
+
+    .main-footer__short-desc {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .main-footer__icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .hr-row {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .container-image {
+        height: 300px;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .desc {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    .desc p {
+        margin-top: 30px;
+    }
+
+    .desc h1 {
+        font-size: 16px;
+    }
+
+    .desc p {
+        font-size: 14px;
+    }
+
+    .tools {
+        width: 100%;
+    }
+
+    .tools h3 {
+        font-size: 16px;
+    }
+
+    .tools a {
+        font-size: 14px;
+
+    }
+
+}
