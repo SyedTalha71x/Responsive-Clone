@@ -44,7 +44,7 @@
     }
 
     .content .h-primary {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .content .h-para {
@@ -210,6 +210,9 @@
     .tools a {
         font-size: 14px;
 
+    }
+    .main-footer__lower{
+        font-size: 14px;
     }
 
 }

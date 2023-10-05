@@ -93,6 +93,7 @@ a {
 .h-primary {
     font-family: var(--font-4);
     font-weight: 600;
+    font-size: 60px;
 }
 
 #element {
@@ -185,6 +186,7 @@ a {
     position: relative;
     font-family: var(--font-4);
     font-weight: 600;
+    font-size: 50px;
 }
 .heading-sec__sub {
     display: block;
@@ -384,9 +386,8 @@ a {
 }
 .main-footer__icon {
     border-radius: 1cqw;
-   
-    margin-right: 1rem;
-    width: 2.1rem;
+    margin-right: 8px;
+    width: 2rem;
     background-color: white;
 }
 .main-footer__row-2 {
