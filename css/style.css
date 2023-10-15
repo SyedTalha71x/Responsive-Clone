@@ -9,6 +9,9 @@
     --font-4: 'Kanit', sans-serif;
     --font-5: 'Merriweather Sans', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
