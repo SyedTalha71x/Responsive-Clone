@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Talha Hussain | Software Developer</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/index.html" class="nav-logo text-purple-900 font-bold">Talha Hussain</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main_container bg-gray-400 ">
+        <div class="login-form flex justify-center">
+        <div class="form-content">
+            <h2 class="login-heading">Welcome to Login</h2>
+            <form action="" id="form">
+                <div class="input-class">
+                    <input type="username" id="userch" class="input-user" placeholder="Username" required>
+                </div>
+                <div class="input-class">
+                    <input type="password" id="userps" class="pass" placeholder="Password" required>
+                    <i class='bx bx-hide eye-icon'></i>
+                </div>
+
+                <div class="form-btn w-full bg-purple-950 text-white text-center px-2 py-2 mt-6">
+                    <button id="login-btn" type="submit" onclick="auth()">Login</button>
+                </div>
+                <div class="link-sign mt-4  ">
+                    <span class="text-purple-950">Already have an account? <a  href="/signup.html" class="link signup-link underline font-bold">Signup</a>
+                    </span>
+                </div>
+
+                <div class="line"></div>
+                <div class="mt-8 bg-blue-900 text-center text-white px-2 py-2">
+                    <a href="https://www.facebook.com/">Login with Facebook</a>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+        
+    
+    </div>
+
+    <div class="main-footer__lower bg-black mt-4 text-1xl">
+        &copy; Copyright
+        <script>document.write(new Date().getFullYear())</script>. Made by
+        <a rel="noreferrer" target="_blank" href="">Talha Hussain</a>
+      </div>
+
+
+
+
+    <script src="js/login.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

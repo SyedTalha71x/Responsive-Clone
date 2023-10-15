@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Talha Hussain | Software Developer</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/index.html" class="nav-logo text-purple-900 font-bold">Talha Hussain</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main_container bg-gray-400 ">
+        <div class="login-form flex justify-center">
+            <div class="form-content">
+                <h2 class="login-heading">Welcome to Signup</h2>
+                <form action="" id="signup-form">
+                    <div class="input-class">
+                        <input type="username" id="sign-userch" class="input-user" placeholder="Username" required>
+                    </div>
+                    <div class="input-class">
+                        <input type="password" id="sign-userps" class="pass" placeholder="Password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="input-class">
+                        <input type="password" id="sign-confirmpass" class="pass" placeholder="Confirm Password"
+                            required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-btn w-full bg-purple-950 text-white text-center px-2 py-2 mt-6">
+                        <button id="signup-btn" type="submit" onclick="signauth()">Signup</button>
+                    </div>
+
+                    <div class="line"></div>
+                    <div class="mt-8 bg-blue-900 text-center text-white px-2 py-2">
+                        <a
+                            href="https://www.facebook.com/campaign/landing.php?campaign_id=1653377901&extra_1=s%7Cc%7C358050429248%7Ce%7Cfacebook%20signup%7C&placement=&creative=358050429248&keyword=facebook%20signup&partner_id=googlesem&extra_2=campaignid%3D1653377901%26adgroupid%3D65139789722%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-321689134300%26loc_physical_ms%3D1011081%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIzfus9tC4gQMVh5JoCR0zsQp8EAAYASAAEgJtNPD_BwE">Signup
+                            with Facebook</a>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="main-footer__lower bg-black mt-4 text-1xl">
+        &copy; Copyright
+        <script>document.write(new Date().getFullYear())</script>. Made by
+        <a rel="noreferrer" target="_blank" href="">Talha Hussain</a>
+    </div>
+
+
+    <script src="js/login.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

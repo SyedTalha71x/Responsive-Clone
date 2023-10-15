@@ -16,6 +16,11 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+
+
+
+// Contact Form Validation
+
 const contactform = document.getElementById('contact-form');
 const username = document.getElementById('name');
 const useremail = document.getElementById('email');
@@ -23,26 +28,24 @@ const useraddress = document.getElementById('address');
 const userreview = document.getElementById('review');
 const btn = document.getElementById('submitbtn');
 
-isemailvalid = (email) =>{
+isemailvalid = (email) => {
     const emailpattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailpattern.test(email);
 }
 
-function handlesubmit(event){
+function handlesubmit(event) {
     event.preventDefault();
 
     const name = username.value;
     const email = useremail.value;
     const review = userreview.value;
 
-    if(!name || !email || !review)
-    {
+    if (!name || !email || !review) {
         alert("These Fields are requried..")
         return;
     }
 
-    if(!isemailvalid(email))
-    {
+    if (!isemailvalid(email)) {
         alert("Please Enter a Valid Email");
         return;
     }
@@ -52,10 +55,8 @@ function handlesubmit(event){
 
 btn.addEventListener('click', handlesubmit);
 
-// function darkbtn(){
-//     var element = document.body;
-//     element.classList.toggle("dark-mode");
-// }
+
+
 
 
 
